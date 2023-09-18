@@ -13,6 +13,8 @@ const Home = () => {
   const year = new Date().getFullYear();
 
   const [trendingProducts, setTrendingProducts] = useState([]);
+
+  
   const [bestSalesProducts, setBestSalesProducts] = useState([]);
 
   useEffect(() => {
